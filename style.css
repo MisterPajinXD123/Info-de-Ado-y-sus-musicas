@@ -1,0 +1,111 @@
+/* Fondo general */
+body{
+    background: linear-gradient(to bottom, #0d0d1f, #1a1a40);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.7;
+}
+
+/* Títulos principales */
+h1{
+    color: #4da6ff;
+    text-align: center;
+    font-size: 38px;
+    text-shadow: 0px 0px 10px #4da6ff;
+    margin-bottom: 20px;
+}
+
+/* Subtítulos */
+h2{
+    color: #66ccff;
+    border-left: 5px solid #4da6ff;
+    padding-left: 10px;
+    margin-top: 35px;
+}
+
+/* Párrafos */
+p{
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+/* Texto en negrita */
+strong{
+    color: #99ddff;
+}
+
+/* Texto en cursiva */
+em{
+    color: #b3e6ff;
+}
+
+/* Lista de canciones */
+strong p{
+    background-color: rgba(255,255,255,0.08);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    width: fit-content;
+}
+
+strong p:hover{
+    background-color: #4da6ff;
+    color: black;
+    transform: scale(1.05);
+}
+
+/* Línea decorativa */
+hr{
+    border: none;
+    height: 2px;
+    background: #4da6ff;
+    margin: 30px 0;
+}
+
+/* Efecto contenedor */
+body{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Scroll bonito */
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #4da6ff;
+    border-radius: 10px;
+}
+
+.cancion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.08);
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.cancion:hover{
+    transform: scale(1.02);
+    background-color: rgba(77,166,255,0.2);
+}
+
+.cancion p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #99ddff;
+}
+
+audio{
+    width: 300px;
+}
