@@ -110,3 +110,13 @@ audio{
     border: 3px solid #4da6ff;
     box-shadow: 0 0 25px rgba(77,166,255,0.8);
 }
+
+.youtube-icon{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 80px;   /* más grande */
+    height: 80px;  /* más grande */
+    border-radius: 50%;
+    cursor: pointer;
+}
